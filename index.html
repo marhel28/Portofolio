@@ -11,6 +11,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <link  rel="icon" type="image/x-icon" href="./img/bag (1).ico">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </style>
 </head>
 <body>
@@ -156,7 +158,7 @@
                 <div class="mb-5 p-4 md:w-1/2 md:px-10">
                     <div class="max-w-sm  border border-gray-200 rounded-lg shadow bg-slate-700 ">
                         <a target="_blank" href="https://invitation-mauve.vercel.app/welcome/ammar-abu-fadhel-30wt">
-                            <img class="rounded-t-lg" src="/img/porto/1.jpg" alt="" />
+                            <img class="rounded-t-lg" src="/img/porto/1.jpg" alt=""data-aos="fade-up">
                         </a>
                         <div class="p-5">
                             <a target="_blank" href="https://invitation-mauve.vercel.app/welcome/ammar-abu-fadhel-30wt">
@@ -176,7 +178,7 @@
                     <div class="max-w-sm  border-gray-200 rounded-lg shadow bg-slate-700 overflow-hidden ">
                         <a target="_blank" href="https://www.figma.com/proto/BKH8YbjIgI1sdN6RmdatlS/Untitled?node-id=2-3&starting-point-node-id=137%3A43" >
                             <div class="w-full h-96 overflow-hidden">
-                                <img class="w-full h-full object-cover rounded-t-lg object-left-top" src="/img/porto/porto 2 fix.png" alt="" />
+                                <img class="w-full h-full object-cover rounded-t-lg object-left-top" data-aos="fade-up" src="/img/porto/porto 2 fix.png" alt="" />
                             </div>
                         </a>
                         <div class="p-5">
@@ -196,7 +198,7 @@
                 <div class="mb-5 p-4 md:w-1/2 md:px-10">
                     <div class="max-w-sm  border border-gray-200 rounded-lg shadow bg-slate-700 ">
                         <a target="_blank" href="https://github.com/marhel28/python-weather-api">
-                            <img class="rounded-t-lg" src="/img/porto/apps Weather.PNG" alt="" />
+                            <img class="rounded-t-lg" data-aos="fade-up" src="/img/porto/apps Weather.PNG" alt="" />
                         </a>
                         <div class="p-5">
                             <a target="_blank" href="https://github.com/marhel28/python-weather-api">
@@ -291,5 +293,15 @@
 </footer>
 
      <script src="scripts.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+     <script>
+AOS.init({
+    duration: 1200,   // Durasi animasi lebih lama untuk efek lebih halus
+    easing: 'ease-out-back',   // Easing yang lebih halus
+    once: true,        // Animasi hanya sekali
+    mirror: true,      // Animasi bisa diputar saat scroll mundur
+    offset: 100        // Efek dimulai lebih awal dari posisi scroll
+});
+     </script>
 </body>
 </html>
